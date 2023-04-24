@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
+import Button from '@mui/material/Button';
 
 import Logo from '../assets/images/Logo.png';
 
@@ -16,13 +17,30 @@ const Navbar = () => (
       fontSize="24px"
       alignItems="flex-end"
     >
-      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Exercises</a>
+      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5' }}>Home</Link>
+      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5' }}>Exercises</a>
+      <Link to="/aboutus" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5' }}>About Us</Link>
      
-      <Link to="/register" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Register</Link>
-      <Link to="/aboutus" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>About Us</Link>
+      
 
     </Stack>
+    <Button
+          className="search-btn"
+          sx={{
+            bgcolor: "#9691e5",
+            color: "#fff",
+            textTransform: "none",
+            width: { lg: "140px", xs: "80px" },
+            height: "45px",
+            position: "absolute",
+            right: "20px",
+            top:"50px",
+            fontSize: { lg: "20px", xs: "14px" },
+          }}
+          
+        >
+          Register
+      </Button>
   </Stack>
 );
 
