@@ -17,9 +17,9 @@ const Navbar = () => (
       fontSize="24px"
       alignItems="flex-end"
     >
-      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5' }}>Home</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5' }}>Exercises</a>
-      <Link to="/aboutus" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5' }}>About Us</Link>
+      <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5',font:'18px rubik,sans-serif' }}>Home</Link>
+      <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5',font:'18px rubik,sans-serif' }}>Exercises</a>
+      <Link to="/aboutus" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5',font:'18px rubik,sans-serif' }}>About Us</Link>
      
       
 
@@ -27,14 +27,14 @@ const Navbar = () => (
     <Button
           className="search-btn"
           sx={{
-            bgcolor: "#9691e5",
+            bgcolor: "#6674CC",
             color: "#fff",
             textTransform: "none",
             width: { lg: "140px", xs: "80px" },
             height: "45px",
             position: "absolute",
             right: "20px",
-            top:"50px",
+            top:"40px",
             fontSize: { lg: "20px", xs: "14px" },
           }}
           

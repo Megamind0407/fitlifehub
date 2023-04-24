@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans';
-  background-color:#F1F6F9;
+  background-color:#fff;
 }
 
 * {
@@ -67,7 +67,7 @@ body {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #080808;
+  border-top: 4px solid #6674CC;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
