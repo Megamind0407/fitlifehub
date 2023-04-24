@@ -6,20 +6,20 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ExerciseDetail from "./pages/ExerciseDetail";
-import Register from "./pages/Register";
+
 import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   return (
-    <Box width="400px" sx={{width : {xl : '1488px'}}} m="auto">
+    <Box width="400px" sx={{ width: { xl: "1488px" } }} m="auto">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/aboutus" element={<AboutUs/>} />
+
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </Box>
   );
 };
