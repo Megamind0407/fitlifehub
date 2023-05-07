@@ -54,11 +54,12 @@ body {
 }
 
 .hero-banner-img {
+  display: block;
   position: absolute;
   right: 40px;
-  top: 0px;
-  width: 700px;
-  height: 900px;
+  top: -70px;
+  width: 850px;
+  height: 850px;
   margin-top: -190px;
 
 }
@@ -124,6 +125,7 @@ body {
 
   .hero-banner-img {
     display: none;
+
   }
 
   .exercise-card {
