@@ -33,7 +33,7 @@ const Nav = () => {
           to="/"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
+            color: "#000000",
             font: "18px rubik,sans-serif",
           }}
         >
@@ -46,7 +46,7 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <HashLink to="/#exercises" style={{ textDecoration: 'none', color: '#3A1212',font:'18px rubik,sans-serif' }}>Exercises</HashLink>
+        <HashLink to="/#exercises" style={{ textDecoration: 'none', color: '#000000',font:'18px rubik,sans-serif' }}>Exercises</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -54,7 +54,7 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/aboutus" style={{ textDecoration: 'none', color: '#3A1212',font:'18px rubik,sans-serif' }}>About Us</Link>
+        <Link to="/aboutus" style={{ textDecoration: 'none', color: '#000000',font:'18px rubik,sans-serif' }}>About Us</Link>
       </Typography>
       <Typography
         as="li"
@@ -62,7 +62,7 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/menu" style={{ textDecoration: 'none', color: '#3A1212', font:'18px rubik,sans-serif' }}>Menu</Link>
+        <Link to="/menu" style={{ textDecoration: 'none', color: '#000000', font:'18px rubik,sans-serif' }}>Menu</Link>
       </Typography>
     </ul>
   );
@@ -81,7 +81,7 @@ const Nav = () => {
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Link to="/signup">
             <Button
-              color="red"
+              color="blue"
               variant="gradient"
               size="sm"
               className="hidden lg:inline-block "
@@ -132,8 +132,8 @@ const Nav = () => {
         </div>
         <MobileNav open={openNav}>
           {navList}
+          <Button variant="gradient" color="blue" size="sm" fullWidth className="mb-2">
 
-          <Button variant="gradient" color="red" size="sm" fullWidth className="mb-2">
             <span>Register</span>
           </Button>
         </MobileNav>
