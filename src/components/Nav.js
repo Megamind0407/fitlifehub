@@ -33,8 +33,7 @@ const Nav = () => {
           to="/"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
-            borderBottom: "3px solid #9691e5",
+            color: "#000000",
             font: "18px rubik,sans-serif",
           }}
         >
@@ -47,7 +46,7 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <HashLink to="/#exercises" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5',font:'18px rubik,sans-serif' }}>Exercises</HashLink>
+        <HashLink to="/#exercises" style={{ textDecoration: 'none', color: '#000000',font:'18px rubik,sans-serif' }}>Exercises</HashLink>
       </Typography>
       <Typography
         as="li"
@@ -55,7 +54,7 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/aboutus" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5',font:'18px rubik,sans-serif' }}>About Us</Link>
+        <Link to="/aboutus" style={{ textDecoration: 'none', color: '#000000',font:'18px rubik,sans-serif' }}>About Us</Link>
       </Typography>
       <Typography
         as="li"
@@ -63,7 +62,7 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/menu" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #9691e5',font:'18px rubik,sans-serif' }}>Menu</Link>
+        <Link to="/menu" style={{ textDecoration: 'none', color: '#000000', font:'18px rubik,sans-serif' }}>Menu</Link>
       </Typography>
     </ul>
   );
@@ -78,9 +77,9 @@ const Nav = () => {
               style={{ width: "52px", height: "52px" }}
             />
           </Link>
-            <h1>FitLife <span>Hub</span></h1>
           <div className="flex flex-row items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
+            <Link to="/signup">
             <Button
               color="blue"
               variant="gradient"
@@ -89,6 +88,8 @@ const Nav = () => {
             >
               <span>Register</span>
             </Button>
+          </Link>
+            
             
             <IconButton
               variant="text"
@@ -132,6 +133,7 @@ const Nav = () => {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" color="blue" size="sm" fullWidth className="mb-2">
+
             <span>Register</span>
           </Button>
         </MobileNav>
