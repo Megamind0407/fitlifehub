@@ -82,7 +82,7 @@ const Nav = () => {
           <div className="flex flex-row items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Button
-              color="red"
+              color="blue"
               variant="gradient"
               size="sm"
               className="hidden lg:inline-block "
@@ -131,7 +131,7 @@ const Nav = () => {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" color="red" size="sm" fullWidth className="mb-2">
+          <Button variant="gradient" color="blue" size="sm" fullWidth className="mb-2">
             <span>Register</span>
           </Button>
         </MobileNav>
