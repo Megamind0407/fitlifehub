@@ -35,6 +35,7 @@ export default function SignUp() {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
+            marginBottom:'182px'
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
@@ -92,14 +93,14 @@ export default function SignUp() {
             <Button
               type="submit"
               fullWidth
-              // variant="contained"
+              variant="contained"
               sx={{ mt: 3, mb: 2 ,background:"#6674CC",color:"#fff"}}
             >
               Register
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link to='/signin' variant="body2">
+                <Link href='#'ariant="body2">
                   Already have an account? Sign in
                 </Link>
               </Grid>
