@@ -89,6 +89,16 @@ const Nav = () => {
               <span>Register</span>
             </Button>
           </Link>
+            <Link to="/signin">
+            <Button
+              color="red"
+              variant="gradient"
+              size="sm"
+              className="hidden lg:inline-block "
+            >
+              <span>Sign In</span>
+            </Button>
+          </Link>
             
             
             <IconButton
@@ -132,10 +142,19 @@ const Nav = () => {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" color="blue" size="sm" fullWidth className="mb-2">
+          <Link to='/signup'>
+            <Button variant="gradient" color="blue" size="sm" fullWidth className="mb-2">
 
-            <span>Register</span>
-          </Button>
+              <span>Register</span>
+            </Button>
+          </Link>
+          <Link to='/signin'>
+            <Button variant="gradient" color="red" size="sm" fullWidth className="mb-2">
+
+              <span>Sign In</span>
+            </Button>
+          </Link>
+          
         </MobileNav>
       </Navbar>
     </>

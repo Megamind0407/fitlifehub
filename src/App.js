@@ -8,7 +8,7 @@ import Nav from "./components/Nav";
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import ExerciseDetail from "./pages/ExerciseDetail";
 
 import AboutUs from "./pages/AboutUs";
@@ -25,12 +25,12 @@ const App = () => {
         <Route path="/menu" element={<Menu />} />
 
         <Route path="/signin" element={<SignIn />} />
-          <Route path="/signup" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp />} />
         
       </Routes>
       
       
-      {/* <Footer /> */}
+      <Footer />
     </Box>
   );
 };
