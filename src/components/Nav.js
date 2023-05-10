@@ -62,6 +62,7 @@ const Nav = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
+       
         <Link to="/menu" style={{ textDecoration: 'none', color: '#000000', font:'18px rubik,sans-serif' }}>Menu</Link>
       </Typography>
     </ul>
@@ -96,7 +97,7 @@ const Nav = () => {
               size="sm"
               className="hidden lg:inline-block "
             >
-              <span>Sign In</span>
+              <span>Login</span>
             </Button>
           </Link>
             
