@@ -98,13 +98,13 @@ export default function SignUp() {
             >
               Register
             </Button>
-            <Grid container justifyContent="flex-end">
+            {/* <Grid container justifyContent="flex-end">
               <Grid item>
                 <Link href='#'ariant="body2">
                   Already have an account? Sign in
                 </Link>
               </Grid>
-            </Grid>
+            </Grid> */}
           </Box>
         </Box>
         
