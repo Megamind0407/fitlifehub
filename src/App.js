@@ -3,7 +3,7 @@ import "./App.css";
 import {Route, Routes } from "react-router-dom";
 import { Box } from "@mui/material";
 import Home from "./pages/Home";
-import Menu from "./pages/Menu";
+
 import Nav from "./components/Nav";
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
 
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/menu" element={<Menu/>} />
+        
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         
