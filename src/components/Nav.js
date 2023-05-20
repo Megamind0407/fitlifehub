@@ -4,12 +4,19 @@ import {
   MobileNav,
   Typography,
   Button,
-  IconButton,
+  IconButton
+  
 } from "@material-tailwind/react";
+
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-
 import Logo from "../assets/images/Logo.png";
+import BasicMenu from "./BasicMenu";
+
+
+
+
+
 
 const Nav = () => {
   const [openNav, setOpenNav] = React.useState(false);
@@ -56,15 +63,9 @@ const Nav = () => {
       >
         <Link to="/aboutus" style={{ textDecoration: 'none', color: '#000000',font:'18px rubik,sans-serif' }}>About Us</Link>
       </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-       
-        <Link to="/menu" style={{ textDecoration: 'none', color: '#000000', font:'18px rubik,sans-serif' }}>Menu</Link>
-      </Typography>
+      
+      <BasicMenu/>
+      
     </ul>
   );
   return (
@@ -80,6 +81,7 @@ const Nav = () => {
           </Link>
           <div className="flex flex-row items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
+            
             <Link to="/signup">
             <Button
               color="blue"
