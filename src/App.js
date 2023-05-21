@@ -10,8 +10,10 @@ import SignIn from "./components/SignIn";
 
 import Footer from "./components/Footer";
 import ExerciseDetail from "./pages/ExerciseDetail";
-
+import CalorieCalculator from "./components/CalorieCalculator";
 import AboutUs from "./pages/AboutUs";
+import BmiCalculator from "./components/BmiCalculator";
+import FitnessTracker from "./components/FitnessTracker";
 
 const App = () => {
   return (
@@ -25,6 +27,9 @@ const App = () => {
         
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/BmiCalculator" element={<BmiCalculator/>} />
+        <Route path="/CalorieCalculator" element={<CalorieCalculator/>} />
+        <Route path="/FitnessTracker" element={<FitnessTracker/>} />
         
       </Routes>
       

@@ -40,8 +40,8 @@ export default function BasicMenu() {
         }}
       >
         <Link to='/BmiCalculator'><MenuItem onClick={handleClose}>BMI Calculator</MenuItem></Link>
-        <Link to='/FoodCalculator'><MenuItem onClick={handleClose}>Food Calculator</MenuItem></Link>
-        <Link to='/ExcerciseCalculator'><MenuItem onClick={handleClose}>Excercise Calculator</MenuItem></Link>
+        <Link to='/FitnessTracker'><MenuItem onClick={handleClose}>Fitness Tracker</MenuItem></Link>
+        <Link to='/CalorieCalculator'><MenuItem onClick={handleClose}>Calorie Calculator</MenuItem></Link>
         
         
       </Menu>
