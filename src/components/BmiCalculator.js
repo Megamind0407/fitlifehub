@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 
-import './BmiCalculator.css'
+import './BmiCalculator.css';
 
 function BmiCalculator() {
 
