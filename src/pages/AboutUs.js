@@ -128,7 +128,7 @@ export default function AboutUs() {
           <Link to='/FitnessTracker'>
             <Card className="mt-6 w-96">
               <CardBody>
-                <img src={fitnesstracker} className="w-14 h-14 mb-4" alt="fitnesstracker" />
+                <img src={fitnesstracker} className="w-14 h-15 mb-4" alt="fitnesstracker" />
 
 
                 <Typography variant="h5" color="blue-gray" className="mb-2">
