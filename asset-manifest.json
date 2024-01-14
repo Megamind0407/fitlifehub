@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.0c16b82a.css",
+    "main.js": "/my-app/static/js/main.1b5dfe1e.js",
+    "static/media/banner.png": "/my-app/static/media/banner.13b7694a3009f0f9bea6.png",
+    "static/media/aboutus.jpg": "/my-app/static/media/aboutus.fa5a3cebcaf0d2fc0adb.jpg",
+    "static/media/fitnesstracker.jpg": "/my-app/static/media/fitnesstracker.41bd5fcdcb16215b35d5.jpg",
+    "static/media/diet.png": "/my-app/static/media/diet.fc9a73a64af361f2bec5.png",
+    "static/media/Logo.png": "/my-app/static/media/Logo.eb8929747ab8102df60e.png",
+    "static/media/yoga.png": "/my-app/static/media/yoga.1c4e34157ab3e7a7ff24.png",
+    "static/media/exercise.png": "/my-app/static/media/exercise.6bf5d5a9dd64b908d612.png",
+    "static/media/bmilogo.jpg": "/my-app/static/media/bmilogo.ba1d1bfdffac1957de7c.jpg",
+    "static/media/burger.png": "/my-app/static/media/burger.10642008973f48beb518.png",
+    "static/media/overweight.png": "/my-app/static/media/overweight.d289cb46e9633c985346.png",
+    "static/media/ramen.png": "/my-app/static/media/ramen.8dd1730214ca80dca928.png",
+    "static/media/healthy.png": "/my-app/static/media/healthy.9343f93bce37d792e548.png",
+    "static/media/underweight.png": "/my-app/static/media/underweight.59ea1528911569173fa9.png",
+    "static/media/gym.png": "/my-app/static/media/gym.f77ecf4dc0766e0ffae7.png",
+    "index.html": "/my-app/index.html",
+    "main.0c16b82a.css.map": "/my-app/static/css/main.0c16b82a.css.map",
+    "main.1b5dfe1e.js.map": "/my-app/static/js/main.1b5dfe1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c16b82a.css",
+    "static/js/main.1b5dfe1e.js"
+  ]
+}
