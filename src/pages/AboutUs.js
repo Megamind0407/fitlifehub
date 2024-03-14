@@ -6,6 +6,7 @@ import fitnesstracker from "../assets/images/fitnesstracker.jpg";
 import caloriecalculator from "../assets/images/caloriecalculator.jpg";
 import { Box, Container, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
+import Footer from "../components/Footer";
 
 import {
   Card,
@@ -20,6 +21,7 @@ import {
   TimelineIcon,
   TimelineBody,
 } from "@material-tailwind/react";
+import Nav from "../components/Nav";
 
 const useStyles = makeStyles({
   image: {
@@ -34,6 +36,7 @@ export default function AboutUs() {
   const classes = useStyles();
   return (
     <Container>
+      <Nav/>
       <Box display="flex" justifyContent="space-around" gap="10rem">
         <div className="w-[32rem] my-5" >
           <Timeline>
@@ -162,6 +165,7 @@ export default function AboutUs() {
       <Typography variant="h3" align="center" color="#6674CC" mt={2} font="sans-serif">
         Contact Us
       </Typography>
+      <Footer/>
     </Container>
   );
 } 

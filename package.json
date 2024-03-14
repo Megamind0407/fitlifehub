@@ -12,6 +12,7 @@
     "@mui/material": "^5.13.2",
     "@mui/x-date-pickers": "^6.5.0",
     "dayjs": "^1.11.7",
+    "firebase": "^10.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-horizontal-scrolling-menu": "^2.7.1",

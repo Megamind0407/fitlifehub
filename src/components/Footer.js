@@ -20,8 +20,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-    <footer className="relative w-full bg-[#6674cc] text-white">
-      <div className="mx-auto w-full max-w-7xl px-8">
+    <footer className="absolute w-screen left-0 right-0 bg-[#6674cc] text-white">
+      <div className="w-full px-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6 mt-5">
             FitLife Hub
