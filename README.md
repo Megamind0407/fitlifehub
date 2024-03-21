@@ -72,7 +72,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # ScreenShots
 
 ![alt text](<Screenshot (12).png>)
+
 ![alt text](<Screenshot (14).png>)
+
 ![alt text](<Screenshot (15).png>)
+
 ![alt text](<Screenshot (16).png>)
+
 ![alt text](<Screenshot (17).png>)
