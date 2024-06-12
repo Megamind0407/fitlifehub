@@ -16,7 +16,6 @@ const Footer = () => {
       items: ["Blog", "Newsletter", "Events", "Help center"],
     },
   ];
-   
   const currentYear = new Date().getFullYear();
   return (
     <>

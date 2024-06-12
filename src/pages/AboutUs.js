@@ -105,7 +105,7 @@ export default function AboutUs() {
       <Typography variant="h3" align="center" color="#6674CC" mt={2}>
         Services Provided
       </Typography>
-      <Box display="flex" justifyContent="space-evenly" flex-direction="row" gap="5rem">
+      <Box display="flex" justifyContent= 'center' alignItems="center" flex-direction="row" gap="3rem">
         <div className="rounded-lg p-6">
           <Link to='/BmiCalculator'>
             <Card className="mt-6 w-96">

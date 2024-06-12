@@ -12,6 +12,7 @@
     "@mui/material": "^5.13.2",
     "@mui/x-date-pickers": "^6.5.0",
     "dayjs": "^1.11.7",
+    "gh-pages": "^6.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-horizontal-scrolling-menu": "^2.7.1",
@@ -21,11 +22,14 @@
     "react-scripts": "^5.0.1",
     "react-typed": "^1.2.0"
   },
+  "homepage": "https://myusername.github.io/fitlifehub",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
