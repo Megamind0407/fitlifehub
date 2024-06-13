@@ -1,10 +1,9 @@
 import React from "react";
 import aboutus from "../assets/images/aboutus.jpg";
-import { makeStyles } from '@material-ui/core/styles';
 import bmilogo from "../assets/images/bmilogo.jpg";
 import fitnesstracker from "../assets/images/fitnesstracker.jpg";
 import caloriecalculator from "../assets/images/caloriecalculator.jpg";
-import { Box, Container, Typography } from '@mui/material';
+import { Box, Container, Typography, styled } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 import {
@@ -21,17 +20,14 @@ import {
   TimelineBody,
 } from "@material-tailwind/react";
 
-const useStyles = makeStyles({
-  image: {
-    width: '600px', // Set the desired width
-    height: '515px', // Set the desired height
-    borderRadius: '8px', // Adjust the value as per your preference
-    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
-  },
+const Image = styled('img')({
+  width: '600px', // Set the desired width
+  height: '515px', // Set the desired height
+  borderRadius: '8px', // Adjust the value as per your preference
+  boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
 });
 
 export default function AboutUs() {
-  const classes = useStyles();
   return (
     <Container>
       <Box display="flex" justifyContent="space-around" gap="10rem">
@@ -48,7 +44,7 @@ export default function AboutUs() {
               <TimelineBody className="pb-8">
                 <Typography
                   variant="small"
-                  color="gary"
+                  color="gray"
                   className="font-normal text-gray-600 text-justify"
                 >
                   A workout refers to a physical activity or exercise session performed with the intention of improving or maintaining one's fitness, strength, endurance, or overall health. It typically involves engaging in various types of exercises and movements, such as cardiovascular activities, strength training, flexibility exercises, or a combination of these.
@@ -66,7 +62,7 @@ export default function AboutUs() {
               <TimelineBody className="pb-8">
                 <Typography
                   variant="small"
-                  color="gary"
+                  color="gray"
                   className="font-normal text-gray-600 text-justify"
                 >
                   Diet and nutrition refer to the food and beverages we consume to nourish our bodies and provide the essential nutrients necessary for optimal health, growth, and function. It encompasses the choices we make regarding what we eat, how much we eat, and the overall balance of nutrients in our diet.
@@ -84,7 +80,7 @@ export default function AboutUs() {
               <TimelineBody>
                 <Typography
                   variant="small"
-                  color="gary"
+                  color="gray"
                   className="font-normal text-gray-600 text-justify"
                 >
                   Dedication and consistency are two important principles that contribute to achieving success and progress in various aspects of life, including fitness, personal goals, work, relationships, and personal development.
@@ -95,8 +91,7 @@ export default function AboutUs() {
           </Timeline>
         </div>
         <div className="my-5">
-          <img
-            className={classes.image}
+          <Image
             src={aboutus}
             alt=""
           />
@@ -105,15 +100,12 @@ export default function AboutUs() {
       <Typography variant="h3" align="center" color="#6674CC" mt={2}>
         Services Provided
       </Typography>
-      <Box display="flex" justifyContent= 'center' alignItems="center" flex-direction="row" gap="3rem">
+      <Box display="flex" justifyContent='center' alignItems="center" flexDirection="row" gap="3rem">
         <div className="rounded-lg p-6">
           <Link to='/BmiCalculator'>
             <Card className="mt-6 w-96">
-
               <CardBody>
                 <img src={bmilogo} className="w-14 h-14 mb-4" alt="bmilogo" />
-
-
                 <Typography variant="h5" color="blue-gray" className="mb-2">
                   BMI Calculator
                 </Typography>
@@ -129,8 +121,6 @@ export default function AboutUs() {
             <Card className="mt-6 w-96">
               <CardBody>
                 <img src={fitnesstracker} className="w-14 h-15 mb-4" alt="fitnesstracker" />
-
-
                 <Typography variant="h5" color="blue-gray" className="mb-2">
                   Fitness Tracker
                 </Typography>
@@ -142,12 +132,10 @@ export default function AboutUs() {
           </Link>
         </div>
         <div className="rounded-lg p-6">
-
           <Link to='/CalorieCalculator'>
             <Card className="mt-6 w-96">
               <CardBody>
                 <img src={caloriecalculator} className="w-14 h-14 mb-4" alt="caloriecalculator" />
-
                 <Typography variant="h5" color="blue-gray" className="mb-2">
                   Calorie Calculator
                 </Typography>
@@ -164,4 +152,4 @@ export default function AboutUs() {
       </Typography>
     </Container>
   );
-} 
+}
