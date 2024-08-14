@@ -1,15 +1,15 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Typed from 'react-typed';
+import {Typed} from 'react-typed'
 
 import HeroBannerImage from '../assets/images/banner.png';
 
-const HeroBanner = () => (
+const HeroBanner = () => {
   <Box
     sx={{ mt: { lg: "212px", xs: "70px" }, ml: { sm: "50px" } }}
     position="relative"
     p="20px"
-    
+
   >
     <Typography
       color="#9691e5"
@@ -26,9 +26,8 @@ const HeroBanner = () => (
       mb="23px"
       mt="30px"
     >
-       
-      <Typed strings={["Train","Persevere","Repeat"]} typeSpeed={60} backSpeed={50} loop={true} />
-      
+      <Typed strings={["Train", "Persevere", "Repeat"]} typeSpeed={60} backSpeed={50} loop={true} />
+
     </Typography>
     <Typography fontSize="22px" font="sans-serif" lineHeight="35px">
       Discover your customized workout plan.
@@ -66,6 +65,7 @@ const HeroBanner = () => (
     </Typography>
     <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" />
   </Box>
-);
+}
 
-export default HeroBanner;
+export default HeroBanner
+

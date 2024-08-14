@@ -23,7 +23,6 @@ function BmiCalculator() {
       setBmi(bmi.toFixed(1))
 
       // Logic for message
-
       if (bmi < 25) {
         setMessage('You are underweight')
       } else if (bmi >= 25 && bmi < 30) {

@@ -56,7 +56,7 @@ const Footer = () => {
             variant="small"
             className="mb-4 text-center font-normal text-white-gray-900 md:mb-0"
           >
-            &copy; {currentYear} <a href="#">FitLife Hub</a>. All
+            &copy; {currentYear} <a href="https://example.com">FitLife Hub</a>. All
             Rights Reserved.
           </Typography>
           <div className="flex gap-4 text-white-900 sm:justify-center">
